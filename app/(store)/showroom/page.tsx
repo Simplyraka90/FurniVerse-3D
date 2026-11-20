@@ -1,0 +1,3 @@
+import InnerPage from '@/components/store/InnerPage';
+import SceneFrame from '@/components/three/SceneFrame';
+export default function Page(){return <InnerPage eyebrow="3D SHOWROOM" title="Explore form in every dimension." description="Rotate, zoom and experience a sculptural sofa from every angle."><section className="showroom-stage"><SceneFrame interactive/><div className="showroom-caption"><span>01 / MODERN SOFA STUDIO</span><span>DRAG TO ROTATE · SCROLL TO ZOOM</span></div></section><p className="demo-disclaimer" style={{marginTop:20}}>This phase includes an interactive product studio, not yet a fully navigable 3D room.</p></InnerPage>}
